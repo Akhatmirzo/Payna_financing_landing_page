@@ -5,6 +5,18 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+
+        & > div {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            & .menuBtn {
+                width: 30px;
+                height: 30px;
+                border: 1px solid;
+            }
+        }
     }
 
     .logo {
@@ -22,6 +34,8 @@
         display: flex;
         align-items: center;
         gap: 59px;
+
+        
 
         &-item {
 

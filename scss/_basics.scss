@@ -11,6 +11,12 @@ body {
 .container {
     max-width: 1272px;
     margin: 0 auto;
+    padding: 0 20px;
+
+    @include tablet() {
+        max-width: 754px;
+        margin: 0 auto;
+    }
 }
 
 ul {

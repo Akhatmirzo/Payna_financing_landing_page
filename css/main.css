@@ -137,6 +137,13 @@ body {
 .container {
   max-width: 1272px;
   margin: 0 auto;
+  padding: 0 20px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 754px;
+    margin: 0 auto;
+  }
 }
 
 ul {
@@ -154,6 +161,16 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.navbar__wrapper > div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar__wrapper > div .menuBtn {
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
 }
 .navbar .logo {
   display: flex;
